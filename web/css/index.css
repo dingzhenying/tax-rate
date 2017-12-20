@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+
+/* 标题 */
+.title {
+    position: relative;
+    height: 80px;
+    color: #333333;
+    background-color: orange;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 左侧输入信息与结果 */
+.change-area {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* 输入信息 */
+.input-area {
+    position: relative;
+    padding: 10px;
+}
+
+
+/* 设置下拉框位置 */
+.select-info-message{
+    margin-left: 80px;
+    width: 200px;
+}
+
+/* 设置按钮位置 */
+.button-tr {
+    text-align: center;
+}
+
+/* 计算结果 */
+.result-area {
+    min-height: 200px;
+    border-top: 1px dashed #333333;
+    width: 100%;
+}
+
+/* 税率表格 */
+.table-area {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* 税率表格表头 */
+.table-area table thead {
+    font-weight: bold;
+}
+
+/* 年终奖显示部分 */
+.year-tr {
+    display: none;
+}
+
+.radio-tr {
+    display: none;
+}
+
+/* 结果 */
+.result-tr {
+    display: none;
+}
+
+.selected {
+    background-color: orange;
+}
